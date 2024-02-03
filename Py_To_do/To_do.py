@@ -74,8 +74,8 @@ class ToDoList:
 def add_task(todo_list):
     title = input("Enter the title of the task: ")
     description = input("Enter the description of the task: ")
-    completed = input("Enter the status of the task (T/F): ")
-    task = Task(title, description, completed == "T")
+    completed = input("Enter the status of the task (True/False): ")
+    task = Task(title, description, completed == "True")
     todo_list.add_task(task)
     print(f"Task: {task.title} added successfully")
 
