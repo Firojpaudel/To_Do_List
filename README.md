@@ -1,5 +1,5 @@
 # To_Do_List
-A simple python project with inbuilt Unit_Testing
+A simple python project with inbuilt Unit_Testing. _(This was my CS50p final project submission 🤷‍♂️)_
 
 ## How to Run:
 **For Pytest:**<br> 
